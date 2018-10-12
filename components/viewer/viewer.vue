@@ -868,7 +868,7 @@ Either specify options.terrainProvider instead or set options.baseLayerPicker to
 
             const $scriptZlib = document.createElement('script')
             global.document.body.appendChild($scriptZlib)
-            $scriptZlib.src = `${cesiumPath}/Workers/zlib.min.js`
+            $scriptZlib.src = `${cesiumPath}Workers/zlib.min.js`
           })
           return global.Cesium._preloader
         } else if (!global.Cesium._preloader) {
